@@ -1,0 +1,4 @@
+$ 'iverilog'  -DFUNCTIONAL -DUNIT_DELAY=  -Ttyp -o JTAG/router_top_jtag_netlist.v.tb.sv.a.out JTAG/router_top_jtag_netlist.v.tb.sv 2>&1
+$ 'vvp' JTAG/router_top_jtag_netlist.v.tb.sv.a.out
+SUCCESS_STRING
+JTAG/router_top_jtag_netlist.v.tb.sv:102: $finish called at 5100000 (1ps)

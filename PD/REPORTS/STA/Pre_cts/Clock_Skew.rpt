@@ -1,0 +1,16 @@
+Clock clock
+   6.60 source latency __dut__.__uuf__._2748_/CLK ^
+  -6.60 target latency __dut__.__uuf__._2748_/CLK ^
+   0.20 clock uncertainty
+   0.00 CRPR
+--------------
+   0.20 setup skew
+
+Clock tck
+   6.70 source latency __dut__.__uuf__._2755_/CLK ^
+   0.00 target latency __dut__._1282_/CLK ^
+   0.20 clock uncertainty
+   0.00 CRPR
+--------------
+   6.90 setup skew
+
