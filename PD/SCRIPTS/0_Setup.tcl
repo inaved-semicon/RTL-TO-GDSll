@@ -26,7 +26,7 @@ set NETLIST "../../DFT/JTAG/router_top_jtag_netlist.v"
 set TOP_MODULE "router_top"
 
 # Timing constraints file.
-set SDC "../../STA/Constraints.sdc"
+set SDC "../../POST_DFT_STA/Constraints.sdc"
 
 
 ################################################################################

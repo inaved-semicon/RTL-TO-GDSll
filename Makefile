@@ -8,7 +8,7 @@ clean:
 	# -----------------------------
 	rm -rf Simulation/fsm_sim.out
 	rm -rf Simulation/router_fsm.vcd
-	rm -rf Simulation/*.png
+
 
 	# -----------------------------
 	# Synthesis

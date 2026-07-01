@@ -162,7 +162,7 @@ Before running ATPG, verify that the generated CUT netlist contains no sequentia
 ```bash
 yosys -p " \
 read_verilog CUT/router_top_cut_netlist.v; \
-stat -liberty ~../Tech_Lib/sky130_fd_sc_hd__tt_025C_1v80.lib" \
+stat -liberty ../Tech_Lib/sky130_fd_sc_hd__tt_025C_1v80.lib" \
 > REPORT/router_top_cut_area_report.rpt
 ```
 Verify the following:
